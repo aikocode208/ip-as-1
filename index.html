@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Kylee Welsh</h1>
+            <p>Aspiring Creative & Childcare Professional</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#media">Media</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/150" alt="Profile Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services & Pricing</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Service One</td>
+                    <td>Lorem ipsum dolor sit amet</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Service Two</td>
+                    <td>Consectetur adipiscing elit</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Service Three</td>
+                    <td>Sed do eiusmod tempor</td>
+                    <td>$40</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <div class="media-grid">
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    <p>Sample Video</p>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" allowfullscreen></iframe>
+                    <p>Sample Video</p>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+                    <p>Sample Video</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:example@email.com" method="POST" enctype="text/plain">
+                <label>Full Name:</label>
+                <input type="text" name="name" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" required>
+
+                <label>Reason for Contact:</label>
+                <select name="reason">
+                    <option>General Inquiry</option>
+                    <option>Service Request</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2026 Kylee Welsh</p>
+        </footer>
+
+    </body>
+
+</html>
